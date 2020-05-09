@@ -1,5 +1,6 @@
 " Name:    one vim colorscheme
 " Author:  Ramzi Akremi
+" Modiefied: C-Radius
 " License: MIT
 " Version: 1.1.1-pre
 
@@ -308,9 +309,9 @@ if has('gui_running') || has('termguicolors') || &t_Co == 88 || &t_Co == 256
     let s:hue_6   = ['#d19a66', '173'] " orange 1
     let s:hue_6_2 = ['#e5c07b', '180'] " orange 2
 
-    let s:syntax_bg     = ['#282c34', '16']
-    let s:syntax_gutter = ['#636d83', '60']
-    let s:syntax_cursor = ['#2c323c', '16']
+    let s:syntax_bg     = ['#1c1e20', '16'] "changed this from #282c34 to "
+    let s:syntax_gutter = ['#1c1e20', '60']
+    let s:syntax_cursor = ['#1c1e20', '16']
 
     let s:syntax_accent = ['#528bff', '69']
 
@@ -845,8 +846,8 @@ if has('gui_running') || has('termguicolors') || &t_Co == 88 || &t_Co == 256
 
   " Neovim Terminal Colors --------------------------------------------------{{{
   if has('nvim')
-    let g:terminal_color_0  = "#353a44"
-    let g:terminal_color_8  = "#353a44"
+    let g:terminal_color_0  = "#1c1e20"  "353a44
+    let g:terminal_color_8  = "#1c1e20"  "353a44
     let g:terminal_color_1  = "#e88388"
     let g:terminal_color_9  = "#e88388"
     let g:terminal_color_2  = "#a7cc8c"
