@@ -309,15 +309,15 @@ if has('gui_running') || has('termguicolors') || &t_Co == 88 || &t_Co == 256
     let s:hue_6   = ['#d19a66', '173'] " orange 1
     let s:hue_6_2 = ['#e5c07b', '180'] " orange 2
 
-    let s:syntax_bg     = ['#1c1e20', '16'] "changed this from #282c34 to "
+    let s:syntax_bg     = ['#282c34', '16'] "This is all line numbers bg highlight color
     let s:syntax_gutter = ['#1c1e20', '60']
-    let s:syntax_cursor = ['#1c1e20', '16']
+    let s:syntax_cursor = ['#282c34', '16'] "This is the selected line's background highlight color
 
     let s:syntax_accent = ['#528bff', '69']
 
     let s:vertsplit    = ['#181a1f', '233']
     let s:special_grey = ['#3b4048', '16']
-    let s:visual_grey  = ['#282c34', '17']
+    let s:visual_grey  = ['#3e4452', '17']
     let s:pmenu        = ['#333841', '16']
   else
     let s:mono_1 = ['#494b53', '23']
